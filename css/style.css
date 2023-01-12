@@ -7,4 +7,36 @@ body {
 h1 {
     margin-top: 40px;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.backgroundCanvas {
+    background-color: #3A506B;
+    height: 550px;
+    
+}
+
+.homeButtons {
+    width: 219px;
+    height: 71px;
+    background-color: #BACCF3;
+    text-align: center;
+    Padding-top: 20px;
+}
+a:active {
+    color: red;
+  }
+
+a:link {
+    color: red;
+}
+a:visited {
+  color: rgb(199, 181, 181);
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 20px;
+  
+  
+
+
 }
