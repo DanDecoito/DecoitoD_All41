@@ -108,7 +108,7 @@ a:active {
 width: 219px;
 height: 71px;
 left: 628px;
-top: 700px;
+top: 750px;
 text-align: center;
 Padding-top: 10px;
 background: #3A506B;
@@ -157,11 +157,29 @@ line-height: 12px;
 
 
 
-/* 
 
-        CH 2
-
-*/
 .numberFieldOne {
     margin-top: 43px;
+}
+
+
+
+.madLibText {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+
+.ooESubmitButton {
+   
+    width: 120px;
+    background-color: #F2CC8F;
+    margin-top: 38px;
+}
+
+.directoryResponse {
+    line-height: 30px;
+    font-size: 32px;
+
 }
