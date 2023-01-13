@@ -14,29 +14,154 @@ h1 {
 .backgroundCanvas {
     background-color: #3A506B;
     height: 550px;
+    width: 1137px;
     
 }
 
 .homeButtons {
+
     width: 219px;
     height: 71px;
     background-color: #BACCF3;
     text-align: center;
     Padding-top: 20px;
+    
 }
-a:active {
-    color: red;
-  }
 
-a:link {
-    color: red;
+a:link { 
+    color: black;
+    text-decoration: none; 
 }
-a:visited {
-  color: rgb(199, 181, 181);
-  font-family: Arial, Helvetica, sans-serif ;
-  font-size: 20px;
-  
-  
 
 
+a:visited { 
+    color: black;
+    text-decoration: none; 
+}
+
+
+a:hover { 
+    text-decoration: none; 
+}
+
+
+a:active { 
+    text-decoration: none; 
+}
+
+
+
+.btnOne {
+    position: absolute;
+    left: 350px;
+    top: 230px;
+}
+
+.btntwo {
+    position: absolute;
+    left: 620px;
+    top: 230px;
+}
+
+.btnThree {
+    position: absolute;
+    left: 890px;
+    top: 230px;
+}
+
+.btnFour {
+    position: absolute;
+    left: 350px;
+    top: 370px;
+}
+
+.btnFive {
+    position: absolute;
+    left: 620px;
+    top: 370px;
+}
+
+.btnSix {
+    position: absolute;
+    left: 890px;
+    top: 370px;
+}
+.btnSeven{
+    position: absolute;
+    left: 350px;
+    top: 510px;
+}
+.btnEight {
+    position: absolute;
+    left: 620px;
+    top: 510px;
+}
+
+.btnNine{
+    position: absolute;
+    left: 890px;
+    top: 510px;
+}
+
+.returnBtn {
+    position: absolute;
+width: 219px;
+height: 71px;
+left: 628px;
+top: 700px;
+text-align: center;
+Padding-top: 10px;
+background: #3A506B;
+font-size: 30px;
+
+}
+
+ 
+
+
+.sayHelloText {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+    font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 12px;
+}
+
+.nameEnter {
+    width: 880px;
+    
+}
+
+.inputBarHello {
+    padding-left: 120px;
+}
+
+.helloSubmitButton {
+    width: 120px;
+    background-color: #F2CC8F;
+}
+
+.helloSubmitButtonPadding {
+    padding-left: 140px;
+    padding-top: 10px;
+}
+.helloTextResponse {
+    padding-top: 150px;
+    justify-content: center;
+    font-size: 48px;
+}
+
+
+
+/* 
+
+        CH 2
+
+*/
+.numberFieldOne {
+    margin-top: 43px;
 }
