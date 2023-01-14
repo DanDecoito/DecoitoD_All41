@@ -24,8 +24,8 @@ function urlCall(url) {
 }
 
 function addApi(addInputOne, addInputTwo){
-    var letters = /^[1-9]+$/;
-    if(addInputOne.value.match(letters) && addInputOne.value.match(letters)){
+    var letters = /^[0-9]+$/;
+    if(addInputOne.value.match(letters) && addInputTwo.value.match(letters)){
         savedInput1 = addInputOne.value;
         savedInput2 = addInputTwo.value;
         savedHelloUrl = 'https://decoitodallforoneapi.azurewebsites.net/Ch4/Maths/' + savedInput1 + "/" + savedInput2;

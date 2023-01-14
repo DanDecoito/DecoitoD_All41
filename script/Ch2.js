@@ -24,7 +24,7 @@ function urlCall(url) {
 
 function addApi(addInputOne, addInputTwo){
     var letters = /^[1-9]+$/;
-    if(addInputOne.value.match(letters) && addInputOne.value.match(letters)){
+    if(addInputOne.value.match(letters) && addInputTwo.value.match(letters)){
         savedInput1 = addInputOne.value;
         savedInput2 = addInputTwo.value;
         savedHelloUrl = 'https://decoitodallforoneapi.azurewebsites.net/Ch2/Adding/' + savedInput1 + "/" + savedInput2;
